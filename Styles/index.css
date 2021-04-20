@@ -302,7 +302,7 @@ nav li {
 
 .destination-box {
     position: absolute;
-    bottom: 10%;
+    bottom: 12%;
     left: 15%;
     max-width: 534px;
     color: white;
@@ -314,7 +314,7 @@ nav li {
 
 .destination-box-2 {
     position: absolute;
-    bottom: 10%;
+    bottom: 12%;
     right: 15%;
     max-width: 534px;
     color: white;
