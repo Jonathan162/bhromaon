@@ -71,7 +71,7 @@ input::placeholder {
 .searchbar-btn {
     max-width: 153px;
     width: 100%;
-    height: 63px;
+    height: 61px;
     background-color: blue;
     font-family: "Aleo", sans-serif;
     font-style: normal;
@@ -302,11 +302,9 @@ nav li {
 
 .destination-box {
     position: absolute;
-    bottom: 0;
+    bottom: 10%;
     left: 15%;
     max-width: 534px;
-    margin-bottom: 80px;
-    margin-right: 200px;
     color: white;
     padding: 60px 30px;
     background: #232323;
@@ -316,11 +314,9 @@ nav li {
 
 .destination-box-2 {
     position: absolute;
-    bottom: 0;
-    right: 0%;
+    bottom: 10%;
+    right: 15%;
     max-width: 534px;
-    margin-bottom: 80px;
-    margin-right: 200px;
     color: white;
     padding: 60px 30px;
     background: #232323;
