@@ -484,12 +484,12 @@ footer {
 }
 
 .fab.fa-linkedin-in {
-    color: #5474FD;
+    color: #FFFFFF;
     margin-right: 20px;
 }
 
 .fab.fa-linkedin-in:hover {
-    color: #FFFFFF;
+    color: #5474FD;
     cursor: pointer;
     font-size: 30px;
 }
