@@ -1,0 +1,36 @@
+
+/* Global Options */
+
+$main-font: 'Josefin Sans', sans-serif; 
+$secondary-font: 'Aleo', sans-serif;
+$main-line-height: 2.6rem;
+
+$white-color: #ffffff; 
+$blueish-color: #5474FD;
+
+@mixin background-picture {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin main-opacity {
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
+@mixin hoover-transition {
+    transition: all ease 0.5s;
+}
+
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+/* 1rem = 10px */
+
+html {
+    font-size: 62.5%;
+}

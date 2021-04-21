@@ -4,46 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Bhromaon - Safe Travel Anywhere" />
+    <meta name="description"
+        content="Bhromaon is a travel agency that offers a great selection of destinations in Europe. See all our trips here!" />
+    <meta name="robots" content="index,follow" />
     <script src="https://kit.fontawesome.com/ad7474103a.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Aleo|Josefin+Sans:400,700&display=swap" rel="stylesheet">
-    <link rel="favicon" type="image/png" href="./icons/travel.png">
+    <link rel="icon" type="image/png" href="./icons/travel.png">
+
     <link rel="stylesheet" href="/Styles/reset.css">
     <link rel="stylesheet" href="/Styles/index.css">
-    <title>Bhromaon</title>
+    <title>Bhromaon - Safe Travel Anywhere</title>
 </head>
 
-<!--Header/Hero/Nav-->
+<!--Header/Hero-->
 
 <body>
-    <header class="main-head">
-        <div class="header-container">
-            <h1 class="main-title">BHROMAON</h1>
-            <h3 class="main-second-title">Safe Travel Anywhere</h3>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__title">BHROMAON</h1>
+            <h3 class="header__second__title">Safe Travel Anywhere</h3>
         </div>
-        <div class="search-header">
-            <form class="searchbar" action="">
-                <input class="searchbar-text" type="text" name="search" minlength="10"
+        <div class="header__search">
+            <form class="header__searchbar" action="">
+                <input class="header__searchbar__text" type="text" name="search" minlength="10"
                     placeholder="Search Your Travel Destination">
-                <button type="submit" class="searchbar-btn">
+                <button type="submit" class="header__searchbar__btn">
                     Search
                     <i class="fas fa-search"></i>
                 </button>
             </form>
         </div>
-        <div class="header-scroll">
-            <a href="#main-nav">
+        <div class="header__scroll">
+            <a href="#nav">
                 Scroll Down <br>
+                <!--Add a bouncy little animation here-->
                 <i class="fas fa-chevron-down"></i>
             </a>
         </div>
     </header>
-    <nav id="main-nav">
-        <div class="nav-container">
-            <div class="nav-logo">
+    <!--Nav-->
+    <nav id="nav">
+        <div class="nav__container">
+            <div class="nav__logo">
                 <h3 class="logo">BHROMAON</h3>
             </div>
-            <div class="nav-list">
-                <ul class="nav-links">
+            <div class="nav__list">
+                <ul class="nav__links">
                     <li><a href="#">WHO WE ARE</a></li>
                     <li><a href="#">WHAT WE DO</a></li>
                     <li><a href="#">TRAVEL WITH US</a></li>
@@ -54,9 +61,9 @@
     </nav>
     <main>
         <!--Why Choose Us-->
-        <section class="why-choose-us">
-            <div class="why-container">
-                <div class="why-info">
+        <section class="why_choose_us">
+            <div class="why__container">
+                <div class="why__info">
                     <h2>Why Choose Us</h2>
                     <p>Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of
                         the
@@ -67,67 +74,67 @@
                         blinded
                         by
                         desire, that.</p>
-                    <button class="why-choose-btn">EXPLORE PLACES</button>
+                    <button class="why__choose__btn">EXPLORE PLACES</button>
                 </div>
-                <div class="why-pictures">
+                <div class="why__pictures">
                     <img class="why-picture-1" src="./img/pic1-why.jpg" alt="house">
                     <img class="why-picture-2" src="./img/pic2-why.jpg" alt="landscape">
                 </div>
             </div>
         </section>
         <!--Icon Section (I'm missing the lines between the icons here)-->
-        <section class="icon-section">
-            <div class="icon-container">
-                <div class="icons"><img src="./icons/icon-1.png" alt="magnifying glass">
+        <section class="icon">
+            <div class="icon__container">
+                <div class="icon__box"><img src="./icons/icon-1.png" alt="magnifying glass">
                     <h3>Discover Places</h3>
                 </div>
-                <div class="icons"><img src="./icons/icon-2.png" alt="check mark in circle">
+                <div class="icon__box"><img src="./icons/icon-2.png" alt="check mark in circle">
                     <h3>Select Places</h3>
                 </div>
-                <div class="icons"><img src="./icons/icon-3.png" alt="thumbs up">
+                <div class="icon__box"><img src="./icons/icon-3.png" alt="thumbs up">
                     <h3>Book & Enjoy</h3>
                 </div>
             </div>
         </section>
         <!--Destinations #1-->
         <section class="destinations">
-            <div class="destination-container">
-                <div class="destination-container">
-                    <div class="destination-box">
-                        <h5 class="country">Spain</h5>
-                        <h4 class="destination-country">Grand Spain Madrid</h4>
-                        <p class="destination-text">But I must explain to you how all this mistaken idea of account to
-                            denouncing pleasure and
-                            praising pain was account
-                            born and I account will give you a complete account of the system</p>
-                        <button class="destination-btn">BOOK NOW</button>
-                    </div>
-                </div>
-            </div>
-            <!--Destination #2-->
-            <div class="destination-container-2">
-                <div class="destination-box-2">
-                    <h5 class="country">Spain</h5>
-                    <h4 class="destination-country">Grand Spain Madrid</h4>
-                    <p class="destination-text">But I must explain to you how all this mistaken idea of account to
+            <div class="destination__container">
+                <div class="destination__box">
+                    <h5 class="destination__country">Spain</h5>
+                    <h4 class="destination__country__city">Grand Spain Madrid</h4>
+                    <p class="destination__city__text">But I must explain to you how all this mistaken idea of account
+                        to
                         denouncing pleasure and
                         praising pain was account
                         born and I account will give you a complete account of the system</p>
-                    <button class="destination-btn">BOOK NOW</button>
+                    <button class="destination__btn">BOOK NOW</button>
+                </div>
+            </div>
+            <!--Destination #2-->
+            <div class="destination__container__2">
+                <div class="destination__box__2">
+                    <h5 class="destination__country">Spain</h5>
+                    <h4 class="destination__country__city">Grand Spain Madrid</h4>
+                    <p class="destination__city__text">But I must explain to you how all this mistaken idea of account
+                        to
+                        denouncing pleasure and
+                        praising pain was account
+                        born and I account will give you a complete account of the system</p>
+                    <button class="destination__btn">BOOK NOW</button>
                 </div>
             </div>
 
         </section>
         <!--Testimonials-->
         <section class="testimonials">
-            <div class="testimonials-wrapper">
-                <div class="testimonials-pic">
+            <div class="testimonials__container">
+                <div class="testimonials__pic">
                     <img src="./img/man-backpack.jpg" alt="man with backpack">
                 </div>
-                <div class="testimonials-box">
-                    <div class="testimonials-info">
+                <div class="testimonials__box">
+                    <div class="testimonials__info">
                         <h3 class="sam">SAM SUMON</h3>
-                        <p class="testimonials-quote"><i class="fas fa-quote-left"></i>
+                        <p class="testimonials__quote"><i class="fas fa-quote-left"></i>
                             But I must explain to you how all this mistaken idea
                             of account to denouncinpleasure and praising pain. But I must explain to
                             you how all this mistaken idea of account to nai denouncing pleasure and
@@ -141,11 +148,11 @@
         </section>
     </main>
     <!--Footer-->
-    <footer>
-        <div class="black-space"></div>
-        <h3 class="footer-logo">BHROMAON</h3>
-        <p class="footer-slogan">Safe Travel Everywhere</p>
-        <div class="footer-icons">
+    <footer class="footer">
+        <div class="footer__space"></div>
+        <h3 class="footer__logo">BHROMAON</h3>
+        <p class="footer__slogan">Safe Travel Everywhere</p>
+        <div class="footer__icons">
             <a href="https://facebook.com"></a><i class="fab fa-facebook-f"></i>
             <a href="https://twitter.com"></a><i class="fab fa-twitter"></i>
             <a href="https://linkedin.com"></a><i class="fab fa-linkedin-in"></i>

@@ -1,0 +1,87 @@
+
+/* Destination Section */
+
+.destination__container {
+    width: 100%;
+    min-height: 90vh;
+    position: relative; 
+    background-image: url(../img/bg-destination-1.jpg);
+    @include background-picture ();
+}
+
+.destination__container__2 {
+    width: 100%;
+    min-height: 90vh;
+    position: relative; 
+    background-image: url(../img/bg-destination-2.jpg);
+    @include background-picture ();
+}
+
+.destination__box {
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+    max-width: 53.4rem;
+    color: $white-color;
+    padding: 6rem 3rem;
+    background: #232323;
+    @include main-opacity;
+}
+
+.destination__box__2 {
+    position: absolute;
+    bottom: 12%;
+    right: 15%;
+    max-width: 53.4rem;
+    color: $white-color;
+    padding: 6rem 3rem;
+    background: #232323;
+    @include main-opacity;
+}
+
+.destination__country {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: $main-line-height;
+    color: #E8E8E8;
+    padding: 1rem 0rem;
+}
+
+.destination__country__city {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: $main-line-height;
+    color: $white-color;
+}
+
+.destination__city__text {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: $main-line-height;
+    color: #E8E8E8;
+    padding: 1rem 0rem;
+}
+
+.destination__btn {
+    padding: 1.2rem 2.5rem;
+    margin-top: 2rem;
+    color: $white-color;
+    background: $blueish-color;
+    border: 0.05rem solid $blueish-color;
+    outline: none;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: $main-line-height;
+    &:hover {
+    color: #333333;
+    cursor: pointer;
+    @include hoover-transition() }
+}
