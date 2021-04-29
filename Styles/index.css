@@ -158,6 +158,12 @@ html {
   font-size: 1.5rem;
 }
 
+@media screen and (max-width: 752px) {
+  .header__searchbar {
+    max-width: 45rem;
+  }
+}
+
 /* Nav */
 #nav {
   width: 100%;
@@ -331,6 +337,29 @@ html {
   transition: all ease 0.5s;
 }
 
+@media screen and (max-width: 1280px) {
+  .why_choose_us {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .why-picture-1, .why-picture-2 {
+    display: none;
+  }
+}
+
 /* Icon Section */
 .icon {
   width: 100%;
@@ -374,6 +403,27 @@ html {
   line-height: 2.6rem;
   color: #E8E8E8;
   margin-top: 3rem;
+}
+
+@media screen and (max-width: 980px) {
+  .icon__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .icon__box {
+    margin: 3rem 0;
+  }
 }
 
 /* Destination Section */
@@ -471,6 +521,32 @@ html {
   transition: all ease 0.5s;
 }
 
+@media screen and (max-width: 690px) {
+  .destinations {
+    position: relative;
+  }
+  .destination__box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    min-height: 60vh;
+    width: 100%;
+    font-size: 80%;
+  }
+  .destination__box__2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    min-height: 60vh;
+    width: 100%;
+    font-size: 80%;
+  }
+}
+
 /* Testimonials */
 .testimonials {
   background-image: url(../img/man-hat.jpg);
@@ -504,7 +580,7 @@ html {
 }
 
 .testimonials .testimonials__box {
-  width: 66.8rem;
+  width: 60%;
   height: 28.45rem;
   padding: 0 3rem;
   color: #ffffff;
@@ -551,6 +627,18 @@ html {
   font-size: 2rem;
   line-height: 2.6rem;
   color: #FEFEFE;
+}
+
+@media screen and (max-width: 740px) {
+  .testimonials__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 /* Footer */

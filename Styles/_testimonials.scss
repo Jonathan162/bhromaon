@@ -17,7 +17,7 @@
 }
 
 .testimonials__box {
-    width: 66.8rem;
+    width: 60%;
     height: 28.45rem;
     padding: 0 3rem;
     color: $white-color;
@@ -56,4 +56,11 @@
     line-height: $main-line-height;
     color: #FEFEFE;
 }
+}
+
+@media screen and (max-width: 740px) {
+    .testimonials__container {
+        display: flex;
+        flex-direction: column;
+    }
 }

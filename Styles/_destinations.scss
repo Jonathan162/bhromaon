@@ -85,3 +85,27 @@
     cursor: pointer;
     @include hoover-transition() }
 }
+
+@media screen and (max-width: 690px) {
+    .destinations {
+    position: relative;
+    }
+    .destination__box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 60vh;
+    width: 100%;
+    font-size: 80%;
+    }
+    .destination__box__2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 60vh;
+    width: 100%;
+    font-size: 80%;
+    }
+}

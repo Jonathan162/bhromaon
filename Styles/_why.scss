@@ -76,3 +76,18 @@ p {
     cursor: pointer;
     @include hoover-transition() }
 }
+
+
+@media screen and (max-width: 1280px) {
+    .why_choose_us {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+
+    .why-picture-1, .why-picture-2 {
+        display: none;
+    }
+    }
